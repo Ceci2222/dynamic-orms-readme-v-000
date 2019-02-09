@@ -4,7 +4,8 @@ require 'sqlite3'
 require_relative "../lib/song.rb"
 require_relative "../config/environment.rb"
 
-
+song = Song.column_names
+puts song
 
 #song = Song.new(name: "Goodbye", album: "Hello")
 #puts "song name: " + song.name
